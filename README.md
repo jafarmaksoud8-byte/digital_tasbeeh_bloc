@@ -1,17 +1,52 @@
-# tasbeeh_app
+<p align="center">
+  <img src="https://raw.githubusercontent.com/jafarmaksoud8-byte/digital_tasbeeh_bloc/main/assets/images/tasbeeh_demo.gif" width="300" alt="Digital Tasbeeh App Demo">
+</p>
 
-A new Flutter project.
+# 📿 Digital Tasbeeh BLoC App
 
-## Getting Started
+A modern, elegant Islamic Tasbeeh and dhikr counting application built using Flutter and the **Flutter BLoC** state management pattern. Designed for smooth interactions, custom lists of supplications, and round tracking.
 
-This project is a starting point for a Flutter application.
+---
 
-A few resources to get you started if this is your first Flutter project:
+## ✨ Features
 
-- [Learn Flutter](https://docs.flutter.dev/get-started/learn-flutter)
-- [Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Flutter learning resources](https://docs.flutter.dev/reference/learning-resources)
+* **BLoC State Management:** Manages complex state changes including counters, rounds, and active dhikr navigation cleanly using `flutter_bloc`[cite: 8].
+* **Rich Dhikr Collection:** Pre-loaded list of authentic Azkar and Tasbeeh items with forward and backward navigation.
+* **Round & Progress Tracking:** Tracks target limits per round and increments counts seamlessly.
+* **Modular Architecture:** Clean separation of concerns with custom reusable widgets and design constants.
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+---
+
+## 🛠️ Tech Stack & Packages
+
+* **Flutter & Dart**
+* **flutter_bloc:** For scalable state management logic[cite: 8].
+* **bloc:** Core state management package[cite: 8].
+
+---
+
+## 📂 Project Architecture
+
+```text
+lib/
+│
+├── bloc/
+│   ├── tasbeeh_bloc.dart
+│   ├── tasbeeh_event.dart
+│   └── tasbeeh_state.dart
+│
+├── constatnt/
+│   └── app_color.dart
+│
+├── ui/
+│   ├── views/
+│   │   └── home_view.dart
+│   └── widgets/
+│       ├── container_widget.dart
+│       └── text_widget.dart
+│
+└── main.dart
+
+👨‍💻 Author
+* Name: Jafar Maksoud
+* Email: jafarmaksoud8@gmail.com
