@@ -1,7 +1,9 @@
 
 # 📿 Digital Tasbeeh BLoC App
 
-![App Demo](https://raw.githubusercontent.com/jafarmaksoud8-byte/digital_tasbeeh_bloc/main/assets/images/tasbeeh_demo.gif)
+<p align="center">
+  <img src="https://raw.githubusercontent.com/jafarmaksoud8-byte/digital_tasbeeh_bloc/main/assets/images/tasbeeh_demo.gif" width="300" alt="App Demo">
+</p>
 
 A robust, production-ready state-driven application architected using Flutter and the BLoC state management pattern. Designed with a clean, modular structure emphasizing reactive UI updates, decoupled business logic, and efficient asset management.
 
