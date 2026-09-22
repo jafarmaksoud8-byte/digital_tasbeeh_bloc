@@ -1,6 +1,4 @@
-<p align="center">
-  <img src="assets/images/tasbeeh_demo.gif" width="300" alt="Digital Tasbeeh App Demo">
-</p>
+
 
 # 📿 Digital Tasbeeh BLoC App
 
