@@ -46,3 +46,7 @@ lib/
 │       └── text_widget.dart
 │
 └── main.dart
+
+👨‍💻 Author
+Name: Jafar Maksoud
+Email: jafarmaksoud8@gmail.com
