@@ -4,24 +4,24 @@
 
 # 📿 Digital Tasbeeh BLoC App
 
-A modern, elegant Islamic Tasbeeh and dhikr counting application built using Flutter and the Flutter BLoC state management pattern. Designed for smooth interactions, custom lists of supplications, and round tracking.
+A robust, production-ready state-driven application architected using Flutter and the BLoC state management pattern. Designed with a clean, modular structure emphasizing reactive UI updates, decoupled business logic, and efficient asset management.
 
 ---
 
-## ✨ Features
+## ✨ Core Features
 
-* **BLoC State Management:** Manages complex state changes including counters, rounds, and active dhikr navigation cleanly using `flutter_bloc`.
-* **Rich Dhikr Collection:** Pre-loaded list of authentic Azkar and Tasbeeh items with forward and backward navigation.
-* **Round & Progress Tracking:** Tracks target limits per round and increments counts seamlessly.
-* **Modular Architecture:** Clean separation of concerns with custom reusable widgets and design constants.
+* **Advanced State Management:** Implements `flutter_bloc` and `bloc` to cleanly isolate business logic from UI components, handling complex counter states, round thresholds, and dynamic navigation.
+* **Reactive UI & Lifecycle Control:** Optimized event-driven architecture ensuring instant widget rendering and smooth state transitions.
+* **Scalable Data Flow:** Structured handling of state streams, events, and states for reliable data persistence and memory efficiency.
+* **Modular Codebase:** Adheres to clean architecture principles with decoupled views, state handlers, widgets, and constants.
 
 ---
 
-## 🛠️ Tech Stack & Packages
+## 🛠️ Tech Stack & Dependencies
 
 * **Flutter & Dart**
-* **flutter_bloc:** For scalable state management logic.
-* **bloc:** Core state management package.
+* **flutter_bloc:** For predictable and testable state management logic.
+* **bloc:** Core state architecture foundation.
 
 ---
 
